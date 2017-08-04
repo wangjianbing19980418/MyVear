@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background1"
+    tools:context="cn.rongcloud.im.ui.activity.MyView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/mylibs_logo"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_tv"
+            android:layout_width="140dp"
+            android:layout_height="41dp"
+            android:background="@drawable/login_button"
+            android:text="电视"
+            android:textColor="#00aeff"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="330dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_live"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/login_button"
+            android:text="我要看直播"
+            android:textColor="#00aeff"
+            android:layout_marginLeft="50dp"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/btn_zhubo"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/login_button"
+            android:text="我要主播"
+            android:textColor="#00aeff"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

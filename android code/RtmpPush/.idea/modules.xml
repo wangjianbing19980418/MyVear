@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RtmpPush.iml" filepath="$PROJECT_DIR$/RtmpPush.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liveRtmpPushSDK/liveRtmpPushSDK.iml" filepath="$PROJECT_DIR$/liveRtmpPushSDK/liveRtmpPushSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rtmp_push/rtmp_push.iml" filepath="$PROJECT_DIR$/rtmp_push/rtmp_push.iml" />
+    </modules>
+  </component>
+</project>

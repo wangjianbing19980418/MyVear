@@ -1,0 +1,56 @@
+<br>
+<br>
+<br>
+<!-- Footer ================================================== -->
+<hr>
+{:hook('footer')}
+<div id="footer" class="div_6">
+	<div class="links">
+		<php>$links=sp_getlinks();</php>
+		<foreach name="links" item="vo">
+			<notempty name="vo.link_image">
+				<img src="{:sp_get_image_url($vo['link_image'])}">
+		    </notempty>
+			<a href="{$vo.link_url}" target="{$vo.link_target}">{$vo.link_name}</a>
+		</foreach>
+	</div >
+	<p>
+		Made by <a href="http://www.thinkcmf.com" target="_blank">ThinkCMF</a>
+		Code licensed under the 
+		<a href="http://www.apache.org/licenses/LICENSE-2.0" rel="nofollow" target="_blank">Apache License v2.0</a>.
+		<br />
+		Based on 
+		<a href="http://getbootstrap.com/2.3.2/" target="_blank">Bootstrap</a>.
+		Icons from 
+		<a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">Font Awesome</a>
+	</p>
+</div>
+
+<style type="text/css">
+.div_6{
+	width: 100%;
+	height: 120px;
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	background-color: #90B44B;
+	color: gray;
+	margin-top: -20px;
+	padding-top: 23px;
+}
+.div_6 a{
+	color: white;
+}
+</style>
+
+
+
+
+<div id="backtotop">
+	<i class="fa fa-arrow-circle-up"></i>
+</div>
+<!-- 这里是返回顶部那里 -->
+{$site_tongji}
+
+
+<!-- 这个底部是几个链接,加上统计,和返回顶部 -->

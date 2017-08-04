@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">liveRtmpPush</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Startbutton">开始</string>
+    <string name="Stopbutton">停止</string>
+    <string name="Exitbutton">返回</string>
+    <string name="title_activity_start">Rtmp推流</string>
+    <string name="StartRtmpPush">开始推流</string>
+    <string name="PlayRtmpString">开始播放</string>
+    <string name="hint_input_stream">请在这里输入推流地址</string>
+    <string name="tag_stream">提示：推流地址是您要直播的地址，是其他人观看您的直播应该输入的地址，示例请点击“关于直播测试”，这就是推流地址，格式为""rtmp://"+服务器IP+":1935/推流房间名称/频道名称""</string>
+
+</resources>
